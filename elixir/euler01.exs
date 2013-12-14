@@ -15,7 +15,9 @@ defmodule Euler.Problem1 do
   end
 
   def solve(limit) do
-     IO.puts solver(limit-1)
+    solver(limit-1)
   end
 
 end
+
+IO.puts(Euler.Problem1.solve())
