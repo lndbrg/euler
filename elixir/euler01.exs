@@ -10,6 +10,10 @@ defmodule Euler.Problem1 do
      solver(n-1)
   end
 
+  def solve() do
+    solve(1000)
+  end
+
   def solve(limit) do
      IO.puts solver(limit-1)
   end
